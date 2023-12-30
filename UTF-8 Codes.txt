@@ -1,0 +1,88 @@
+('\n', b'\x0a')                 #LINE FEED
+('\r', b'\x0d')                 #CARRIAGE RETURN
+(' ', b'\x20')                  #SPACE
+
+('0', b'\x30')                  #DIGIT ZERO
+('1', b'\x31')                  #DIGIT ONE
+('2', b'\x32')                  #DIGIT TWO
+('3', b'\x33')                  #DIGIT THREE
+('4', b'\x34')                  #DIGIT FOUR
+('5', b'\x35')                  #DIGIT FIVE
+('6', b'\x36')                  #DIGIT SIX
+('7', b'\x37')                  #DIGIT SEVEN
+('8', b'\x38')                  #DIGIT EIGHT
+('9', b'\x39')                  #DIGIT NINE
+
+('!', b'\x21')                  #EXCLAMATION MARK
+('"', b'\x22')                  #QUOTATION MARK
+("'", b'\x27')                  #APOSTROPHE
+('(', b'\x28')                  #LEFT PARENTHESIS
+(')', b'\x29')                  #RIGHT PARENTHESIS
+('*', b'\x2a')                  #ASTERISK
+(',', b'\x2c')                  #COMMA
+('-', b'\x2d')                  #HYPHEN-MINUS
+('.', b'\x2e')                  #FULL STOP
+('/', b'\x2f')                  #SOLIDUS
+(':', b'\x3a')                  #COLON
+(';', b'\x3b')                  #SEMICOLON
+('[', b'\x5b')                  #LEFT SQUARE BRACKET
+(']', b'\x5d')                  #RIGHT SQUARE BRACKET
+('`', b'\x60')                  #GRAVE ACCENT
+('{', b'\x7b')                  #LEFT CURLY BRACKET
+('}', b'\x7d')                  #RIGHT CURLY BRACKET
+('~', b'\x7e')                  #TILDE
+
+('«', b'\xc2\xab')              #LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+('»', b'\xc2\xbb')              #RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+('،', b'\xd8\x8c')              #ARABIC COMMA
+('؛', b'\xd8\x9b')              #ARABIC SEMICOLON
+('؟', b'\xd8\x9f')              #ARABIC QUESTION MARK
+('ـ', b'\xd9\x80')              #ARABIC TATWEEL
+('\u200f', b'\xe2\x80\x8f')     #RIGHT-TO-LEFT MARK
+('–', b'\xe2\x80\x93')          #EN DASH
+
+('ً', b'\xd9\x8b')               #ARABIC FATHATAN
+('ٌ', b'\xd9\x8c')               #ARABIC DAMMATAN
+('ٍ', b'\xd9\x8d')               #ARABIC KASRATAN
+('َ', b'\xd9\x8e')               #ARABIC FATHA
+('ُ', b'\xd9\x8f')               #ARABIC DAMMA
+('ِ', b'\xd9\x90')               #ARABIC KASRA
+('ّ', b'\xd9\x91')               #ARABIC SHADDA
+('ْ', b'\xd9\x92')               #ARABIC SUKUN
+
+('ء', b'\xd8\xa1')              #ARABIC LETTER HAMZA
+('آ', b'\xd8\xa2')              #ARABIC LETTER ALEF WITH MADDA ABOVE
+('أ', b'\xd8\xa3')              #ARABIC LETTER ALEF WITH HAMZA ABOVE
+('ؤ', b'\xd8\xa4')              #ARABIC LETTER WAW WITH HAMZA ABOVE
+('إ', b'\xd8\xa5')              #ARABIC LETTER ALEF WITH HAMZA BELOW
+('ئ', b'\xd8\xa6')              #ARABIC LETTER YEH WITH HAMZA ABOVE
+('ا', b'\xd8\xa7')              #ARABIC LETTER ALEF
+('ب', b'\xd8\xa8')              #ARABIC LETTER BEH
+('ة', b'\xd8\xa9')              #ARABIC LETTER TEH MARBUTA
+('ت', b'\xd8\xaa')              #ARABIC LETTER TEH
+('ث', b'\xd8\xab')              #ARABIC LETTER THEH
+('ج', b'\xd8\xac')              #ARABIC LETTER JEEM
+('ح', b'\xd8\xad')              #ARABIC LETTER HAH
+('خ', b'\xd8\xae')              #ARABIC LETTER KHAH
+('د', b'\xd8\xaf')              #ARABIC LETTER DAL
+('ذ', b'\xd8\xb0')              #ARABIC LETTER THAL
+('ر', b'\xd8\xb1')              #ARABIC LETTER REH
+('ز', b'\xd8\xb2')              #ARABIC LETTER ZAIN
+('س', b'\xd8\xb3')              #ARABIC LETTER SEEN
+('ش', b'\xd8\xb4')              #ARABIC LETTER SHEEN
+('ص', b'\xd8\xb5')              #ARABIC LETTER SAD
+('ض', b'\xd8\xb6')              #ARABIC LETTER DAD
+('ط', b'\xd8\xb7')              #ARABIC LETTER TAH
+('ظ', b'\xd8\xb8')              #ARABIC LETTER ZAH
+('ع', b'\xd8\xb9')              #ARABIC LETTER AIN
+('غ', b'\xd8\xba')              #ARABIC LETTER GHAIN
+('ف', b'\xd9\x81')              #ARABIC LETTER FEH
+('ق', b'\xd9\x82')              #ARABIC LETTER QAF
+('ك', b'\xd9\x83')              #ARABIC LETTER KAF
+('ل', b'\xd9\x84')              #ARABIC LETTER LAM
+('م', b'\xd9\x85')              #ARABIC LETTER MEEM
+('ن', b'\xd9\x86')              #ARABIC LETTER NOON
+('ه', b'\xd9\x87')              #ARABIC LETTER HEH
+('و', b'\xd9\x88')              #ARABIC LETTER WAW
+('ى', b'\xd9\x89')              #ARABIC LETTER ALEF MAKSURA
+('ي', b'\xd9\x8a')              #ARABIC LETTER YEH
