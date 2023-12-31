@@ -100,23 +100,6 @@ class ArabicSpecials(Enum):
     EN_DASH = b'\xe2\x80\x93'
 
 class ArabicDiacritics(Enum):
-    SHADDA_FATHATAN = '\u0651\u064b'
-    SHADDA_DAMMATAN = '\u0651\u064c'
-    SHADDA_KASRATAN = '\u0651\u064d'
-    SHADDA_FATHA = '\u0651\u064e'
-    SHADDA_DAMMA = '\u0651\u064f'
-    SHADDA_KASRA = '\u0651\u0650'
-    SHADDA_SUKUN = '\u0651\u0652'
-    SHADDA = '\u0651'
-    FATHATAN = '\u064b'
-    DAMMATAN = '\u064c'
-    KASRATAN = '\u064d'
-    FATHA = '\u064e'
-    DAMMA = '\u064f'
-    KASRA = '\u0650'
-    SUKUN = '\u0652'
-
-class ArabicDiacritics(Enum):
     ARABIC_SHADDA_FATHATAN = b'\xd9\x91\xd9\x8b'
     ARABIC_SHADDA_DAMMATAN = b'\xd9\x91\xd9\x8c'
     ARABIC_SHADDA_KASRATAN = b'\xd9\x91\xd9\x8d'
@@ -170,3 +153,7 @@ class ArabicCharacters(Enum):
     ARABIC_LETTER_WAW = b'\xd9\x88'
     ARABIC_LETTER_ALEF_MAKSURA = b'\xd9\x89'
     ARABIC_LETTER_YEH = b'\xd9\x8a'
+
+ArabicCharacters_Mapping = {member.value: i for i, member in enumerate(ArabicCharacters)}
+ArabicDiacritics_Mapping = {member.value: i for i, member in enumerate(ArabicDiacritics)}
+ArabicDiacritics_RevMapping = {i : member.value for i, member in enumerate(ArabicDiacritics)}
