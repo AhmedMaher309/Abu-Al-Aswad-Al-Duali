@@ -1,7 +1,9 @@
+####CONTROL CHARACTERS + SPACE####
 ('\n', b'\x0a')                 #LINE FEED
 ('\r', b'\x0d')                 #CARRIAGE RETURN
 (' ', b'\x20')                  #SPACE
 
+####ENGLISH CHARACTERS####
 ('0', b'\x30')                  #DIGIT ZERO
 ('1', b'\x31')                  #DIGIT ONE
 ('2', b'\x32')                  #DIGIT TWO
@@ -12,7 +14,60 @@
 ('7', b'\x37')                  #DIGIT SEVEN
 ('8', b'\x38')                  #DIGIT EIGHT
 ('9', b'\x39')                  #DIGIT NINE
+('A', b'\x41')                  #LATIN CAPITAL LETTER A
+('B', b'\x42')                  #LATIN CAPITAL LETTER B
+('C', b'\x43')                  #LATIN CAPITAL LETTER C
+('D', b'\x44')                  #LATIN CAPITAL LETTER D
+('E', b'\x45')                  #LATIN CAPITAL LETTER E
+('F', b'\x46')                  #LATIN CAPITAL LETTER F
+('G', b'\x47')                  #LATIN CAPITAL LETTER G
+('H', b'\x48')                  #LATIN CAPITAL LETTER H
+('I', b'\x49')                  #LATIN CAPITAL LETTER I
+('J', b'\x4a')                  #LATIN CAPITAL LETTER J
+('K', b'\x4b')                  #LATIN CAPITAL LETTER K
+('L', b'\x4c')                  #LATIN CAPITAL LETTER L
+('M', b'\x4d')                  #LATIN CAPITAL LETTER M
+('N', b'\x4e')                  #LATIN CAPITAL LETTER N
+('O', b'\x4f')                  #LATIN CAPITAL LETTER O
+('P', b'\x50')                  #LATIN CAPITAL LETTER P
+('Q', b'\x51')                  #LATIN CAPITAL LETTER Q
+('R', b'\x52')                  #LATIN CAPITAL LETTER R
+('S', b'\x53')                  #LATIN CAPITAL LETTER S
+('T', b'\x54')                  #LATIN CAPITAL LETTER T
+('U', b'\x55')                  #LATIN CAPITAL LETTER U
+('V', b'\x56')                  #LATIN CAPITAL LETTER V
+('W', b'\x57')                  #LATIN CAPITAL LETTER W
+('X', b'\x58')                  #LATIN CAPITAL LETTER X
+('Y', b'\x59')                  #LATIN CAPITAL LETTER Y
+('Z', b'\x5a')                  #LATIN CAPITAL LETTER Z
+('a', b'\x61')                  #LATIN SMALL LETTER A
+('b', b'\x62')                  #LATIN SMALL LETTER B
+('c', b'\x63')                  #LATIN SMALL LETTER C
+('d', b'\x64')                  #LATIN SMALL LETTER D
+('e', b'\x65')                  #LATIN SMALL LETTER E
+('f', b'\x66')                  #LATIN SMALL LETTER F
+('g', b'\x67')                  #LATIN SMALL LETTER G
+('h', b'\x68')                  #LATIN SMALL LETTER H
+('i', b'\x69')                  #LATIN SMALL LETTER I
+('j', b'\x6a')                  #LATIN SMALL LETTER J
+('k', b'\x6b')                  #LATIN SMALL LETTER K
+('l', b'\x6c')                  #LATIN SMALL LETTER L
+('m', b'\x6d')                  #LATIN SMALL LETTER M
+('n', b'\x6e')                  #LATIN SMALL LETTER N
+('o', b'\x6f')                  #LATIN SMALL LETTER O
+('p', b'\x70')                  #LATIN SMALL LETTER P
+('q', b'\x71')                  #LATIN SMALL LETTER Q
+('r', b'\x72')                  #LATIN SMALL LETTER R
+('s', b'\x73')                  #LATIN SMALL LETTER S
+('t', b'\x74')                  #LATIN SMALL LETTER T
+('u', b'\x75')                  #LATIN SMALL LETTER U
+('v', b'\x76')                  #LATIN SMALL LETTER V
+('w', b'\x77')                  #LATIN SMALL LETTER W
+('x', b'\x78')                  #LATIN SMALL LETTER X
+('y', b'\x79')                  #LATIN SMALL LETTER Y
+('z', b'\x7a')                  #LATIN SMALL LETTER Z
 
+####ENGLISH SPECIAL####
 ('!', b'\x21')                  #EXCLAMATION MARK
 ('"', b'\x22')                  #QUOTATION MARK
 ("'", b'\x27')                  #APOSTROPHE
@@ -32,6 +87,7 @@
 ('}', b'\x7d')                  #RIGHT CURLY BRACKET
 ('~', b'\x7e')                  #TILDE
 
+####ARABIC SPECIAL####
 ('«', b'\xc2\xab')              #LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 ('»', b'\xc2\xbb')              #RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
 ('،', b'\xd8\x8c')              #ARABIC COMMA
@@ -41,6 +97,7 @@
 ('\u200f', b'\xe2\x80\x8f')     #RIGHT-TO-LEFT MARK
 ('–', b'\xe2\x80\x93')          #EN DASH
 
+####ARABIC SIMPLE DIACRITICS####
 ('ً', b'\xd9\x8b')               #ARABIC FATHATAN
 ('ٌ', b'\xd9\x8c')               #ARABIC DAMMATAN
 ('ٍ', b'\xd9\x8d')               #ARABIC KASRATAN
@@ -50,6 +107,16 @@
 ('ّ', b'\xd9\x91')               #ARABIC SHADDA
 ('ْ', b'\xd9\x92')               #ARABIC SUKUN
 
+####ARABIC COMPLEX DIACRITICS####
+('ًّ', b'\xd9\x91\xd9\x8b')       #ARABIC SHADDA FATHATAN
+('ٌّ', b'\xd9\x91\xd9\x8c')       #ARABIC SHADDA DAMMATAN
+('ٍّ', b'\xd9\x91\xd9\x8d')       #ARABIC SHADDA KASRATAN
+('َّ', b'\xd9\x91\xd9\x8e')       #ARABIC SHADDA FATHA
+('ُّ', b'\xd9\x91\xd9\x8f')       #ARABIC SHADDA DAMMA
+('ِّ', b'\xd9\x91\xd9\x90')       #ARABIC SHADDA KASRA
+('ّْ', b'\xd9\x91\xd9\x92')       #ARABIC SHADDA SUKUN
+
+####ARABIC CHARACTERS####
 ('ء', b'\xd8\xa1')              #ARABIC LETTER HAMZA
 ('آ', b'\xd8\xa2')              #ARABIC LETTER ALEF WITH MADDA ABOVE
 ('أ', b'\xd8\xa3')              #ARABIC LETTER ALEF WITH HAMZA ABOVE
