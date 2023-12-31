@@ -156,4 +156,6 @@ class ArabicCharacters(Enum):
 
 ArabicCharacters_Mapping = {member.value: i for i, member in enumerate(ArabicCharacters)}
 ArabicDiacritics_Mapping = {member.value: i for i, member in enumerate(ArabicDiacritics)}
+ArabicDiacritics_Mapping[b''] = 15
 ArabicDiacritics_RevMapping = {i : member.value for i, member in enumerate(ArabicDiacritics)}
+ArabicDiacritics_RevMapping[15] = b''
