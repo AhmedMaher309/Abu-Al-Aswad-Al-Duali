@@ -21,9 +21,9 @@ class Preprocessor:
         return cleaned_data
 
     # remove diacritics from arabic text and store the new data inside a new file
-    def remove_diacritics(self, data, output_file):
-        data_with_diactrics = strip_tashkeel(data)
-        self.f.write_file(output_file, data_with_diactrics)
+    def remove_diacritics(self, data):
+        data_without_diactrics = strip_tashkeel(data)
+        return data_without_diactrics
 
 
     # remove all punctuation characters and store the result inside the output file
