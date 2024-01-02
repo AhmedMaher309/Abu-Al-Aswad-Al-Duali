@@ -3,7 +3,7 @@ import os
 from pickle import dump,load
 
 class FileReader:
-    def __init__(self, base_path="/content/drive/MyDrive/NLP_Project"):
+    def __init__(self, base_path=""):
         self.base_path = base_path
 
     # Write the data inside the file with file_name
