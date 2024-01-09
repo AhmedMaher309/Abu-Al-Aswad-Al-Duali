@@ -14,7 +14,7 @@ Abu Elswad Elduali is a deep learning model designed to add diacritics (taskeel)
 ### Prerequisites
 
 - Python 3.x
-- TensorFlow (or other deep learning framework of choice)
+- TensorFlow
 - Additional dependencies (specified in requirements.txt)
 
 ### Installation
