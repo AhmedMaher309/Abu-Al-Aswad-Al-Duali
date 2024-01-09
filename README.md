@@ -52,7 +52,7 @@ If you'd like to contribute to Abu Elswad Elduali, please follow these guideline
 
 ## License
 
-This project is licensed under the [MIT License].
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
