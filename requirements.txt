@@ -2,7 +2,7 @@
 
 # Basic dependencies
 enum34==1.1.10
-numpy==1.21
+numpy==1.22.0
 nltk==3.6.6
 
 # Arabic language processing
