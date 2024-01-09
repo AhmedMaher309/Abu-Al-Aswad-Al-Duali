@@ -2,8 +2,8 @@
 
 # Basic dependencies
 enum34==1.1.10
-numpy==1.19.5
-nltk==3.5
+numpy==1.21
+nltk==3.6.6
 
 # Arabic language processing
 pyarabic==0.6.10
@@ -12,7 +12,7 @@ pyarabic==0.6.10
 regex==2021.10.23
 
 # Machine learning frameworks
-tensorflow==2.8.0
+tensorflow==2.8.1
 keras==2.7.0
 gensim==4.2.2
 
